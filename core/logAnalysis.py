@@ -14,7 +14,7 @@ f.close()
     爆破检测函数
 '''
 lastTime='2002-04-11 05:21:00'
-count_Attact=0
+# count_Attact=0
 AttactList=[]
 waring=[]
 def getEventIndex(ip,ipList):
@@ -81,7 +81,6 @@ def id4625(data):
                 '''
 def id4729(data):
     '''
-
     :param data:
     :return: 创建的隐藏用户的用户名
     '''
@@ -92,7 +91,6 @@ def id4729(data):
         用户创建
         TargetUserName 为创建的用户名
         根据隐藏加权
-
         '''
 
 def addGroup(data):
