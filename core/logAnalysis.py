@@ -1,9 +1,7 @@
 import pickle
-from dataStruct import attactEvent_2425
+from core.dataStruct.dataStruct import attactEvent_2425
 
-import numpy as np
-import pandas as pd
-f = open('pklFile/test_all.pkl', 'rb')
+f = open('../pklFile/test_all.pkl', 'rb')
 df = pickle.load(f)
 f.close()
 
@@ -52,10 +50,11 @@ def id4624(data):
             elif data[29] == i.ip:
                 waring.append(data[29])
                 print("存在爆破成功事件！ attact!ip:" + i.ip)
-                '''
-                这里要考虑一下后面怎么接口化
-                '''
                 break
+                '''
+                WorkstationName_EventData是登陆的主机的名字（攻击者） 结合这个和ip地址归类
+                '''
+
 def id4625(data):
     if data[2] == '4625':
         if not inIpList(data[29], AttactList):
@@ -81,18 +80,31 @@ def id4625(data):
                 29是logontype
                 '''
 def id4729(data):
+    '''
+
+    :param data:
+    :return: 创建的隐藏用户的用户名
+    '''
     if data[2] == '4720':
+        TargetUserName=data[7]#根据这个用户名继续后续操作
+        return TargetUserName
         '''
         用户创建
+        TargetUserName 为创建的用户名
+        根据隐藏加权
+
         '''
-    return
+
 def addGroup(data):
     if data[2] == '4728' or data[2] == '4732' or data[2] == '4756':
-        for i in AttactList:
-            if data[16]==i.uid:
-                print("find GroupAdded !")
+        # for i in AttactList:
+            # if data[16]==i.uid:
+            #     print("find GroupAdded !")
+        TargetUserName=data[7]
+        return TargetUserName
         '''
         用户被添加到安全组
+        TargetUserName是添加的目的组，piao$添加到administrators产生的ID为4732
         '''
 def removeGroup(data):
     if data[2] == '4729' or data[2] == '4733' or data[2] == '4757':

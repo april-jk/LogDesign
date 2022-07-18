@@ -1,4 +1,4 @@
-import generateTime
+from core.time import generateTime
 
 import mmap
 import contextlib
@@ -11,6 +11,11 @@ from Evtx.Evtx import FileHeader
 from Evtx.Views import evtx_file_xml_view
 from xml.dom import minidom
 from pandas import DataFrame
+
+'''
+evtx to SQL
+'''
+
 
 #可以根据日志发生时间提取，比如只关注最近一个月，那么提取最近一个月即可，可以大大加速
 
@@ -42,7 +47,7 @@ def exportEVTX(evtxpath,laterTime,ignoreTime):
                     content_dict['SystemTime'] = str(datetime.datetime.strptime(
                         domtree.getElementsByTagName('TimeCreated')[0].getAttribute('SystemTime')[:19],
                         '%Y-%m-%d %H:%M:%S') + datetime.timedelta(hours=8))
-                    if not generateTime.formerIsLater(content_dict['SystemTime'],laterTime,ignoreTime):
+                    if not generateTime.formerIsLater(content_dict['SystemTime'], laterTime, ignoreTime):
                         print('2')
                         continue
                     content_dict['EventID'] = domtree.getElementsByTagName('EventID')[0].childNodes[0].data
