@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/referance_project/LogonTracer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue" vcs="Git" />
   </component>
 </project>

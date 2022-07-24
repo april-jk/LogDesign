@@ -1,5 +1,6 @@
 import pickle
 from core.analysis.bruteForce import id4624,id4625,AttactList
+from core.analysis.hostSecureDetect import hostSecureDetect
 
 f = open('../pklFile/test_all.pkl', 'rb')
 df = pickle.load(f)
@@ -16,4 +17,6 @@ def generatIPList():
         id4624(data)
 
 if __name__ == '__main__':
-    generatIPList()
+    # generatIPList()
+    for data in df.values:
+        hostSecureDetect(data)

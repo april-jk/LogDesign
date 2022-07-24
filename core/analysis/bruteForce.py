@@ -46,3 +46,6 @@ def id4625(data):
                 16是uid
                 29是logontype
                 '''
+def findInBruteForce(data):
+    id4625(data)
+    id4624(data)

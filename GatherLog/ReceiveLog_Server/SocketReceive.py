@@ -1,5 +1,5 @@
 import  socket
-import core.encode.AES
+import encode.AES
 key='23dc31mceow3ewCD214mEc2094MEEwqw'
 # 创建套接字
 tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -16,7 +16,7 @@ while 1:
     recv_data = client_socket.recv(1024)
     data=recv_data.decode('gbk')
     print('接收到的原始数据：', data)
-    data= core.encode.AES.decrypt(data, key)
+    data= encode.AES.decrypt(data, key)
     print('解密后数据：',data)
 
     # 发送一些数据到客户端

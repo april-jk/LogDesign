@@ -1,4 +1,3 @@
-
 def getEventIndex(ip, ipList):
     for n, i in enumerate(ipList, 0):
         if i.ip == ip:

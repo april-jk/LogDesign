@@ -103,6 +103,7 @@ def addGroup(data):
         '''
         用户被添加到安全组
         TargetUserName是添加的目的组，piao$添加到administrators产生的ID为4732
+                                    更改Administrator对注册表完全控制权限产生4728
         '''
 def removeGroup(data):
     if data[2] == '4729' or data[2] == '4733' or data[2] == '4757':

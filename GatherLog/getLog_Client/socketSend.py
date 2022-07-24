@@ -1,5 +1,5 @@
 import socket
-import core.encode.AES
+import encode.AES
 port = 7878
 host = '127.0.0.1'
 data = ''
@@ -12,7 +12,7 @@ def socketClient(host,port,data):
     client_socket.connect((host, port))
 
     try:
-        data= core.encode.AES.encrypt(data, key)
+        data= encode.AES.encrypt(data, key)
         data = data.encode()
         client_socket.send(data)
         response = client_socket.recv(1024)
