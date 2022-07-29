@@ -1,4 +1,6 @@
 import contextlib
+import sys
+from miscFunc.progress_bar import progress_bar
 from datetime import datetime
 
 import pymysql
@@ -19,23 +21,18 @@ from pandas import DataFrame
 
 from core.time import generateTime
 
-mysql_conn = pymysql.connect(host= dbConfig_log.get("host"),
-                             port= dbConfig_log.get("port"),
-                             user= dbConfig_log.get("user"),
-                             password= dbConfig_log.get("password"),
-                             db= dbConfig_log.get("db"))
 
 
 
-
-sql = "SELECT * FROM test "
-try:
-    with mysql_conn.cursor() as cursor:
-        cursor.execute(sql)
-        select_result = cursor.fetchone()
-        print(select_result)
-except Exception as e:
-    print(e)
+# sql = "SELECT * FROM test "
+# # sql = "INSERT INTO test_mysql (name, num, text) VALUES ('{0}','{1}', '{2}')".format('Zarten_1', 1, 'mysql test')
+# try:
+#     with mysql_conn.cursor() as cursor:
+#         cursor.execute(sql)
+#         select_result = cursor.fetchone()
+#         print(select_result)
+# except Exception as e:
+#     print(e)
 
 # 这个文件是提取evtx到pkl缓存
 
@@ -53,10 +50,11 @@ evtx to SQL
 
 
 
+
 #可以根据日志发生时间提取，比如只关注最近一个月，那么提取最近一个月即可，可以大大加速
 
 
-def exportEVTX(evtxpath,laterTime,ignoreTime):
+def exportEVTX(evtxpath):
     '''
     这个函数会解析evtx文件并将其节点解析存放
     :param evtxpath:evtx文件路径:
@@ -106,6 +104,7 @@ def exportEVTX(evtxpath,laterTime,ignoreTime):
                                     content_dict[elethree.tagName + '_UserData'] = elethree.childNodes[0].data
                         # 归档日志信息
                     content_list.append(content_dict)
+
                     print('1')
                     # 现在evtx节点的信息获取已经完成
         all_log = DataFrame(content_list).fillna('')  # 让 Nan 为空字符串
@@ -124,15 +123,88 @@ def exportEVTX(evtxpath,laterTime,ignoreTime):
             raise
 
 
-temPKL='test.pkl'
-# exportEVTX('./Winlog/server2012/server.evtx')
-exportEVTX('../Winlog/server2008/1.evtx','2021-09-14 12:12:12',False)
+temPKL='145clj.pkl'
+# # exportEVTX('./Winlog/server2012/server.evtx')
+# exportEVTX('../Winlog/server2008/1.evtx','2021-09-14 12:12:12',False)
+#
+# table_name='test'
+# sql = "INSERT INTO test_mysql (name, num, text) VALUES ('{0}','{1}', '{2}')".format('Zarten_1', 1, 'mysql test')
 
-table_name='test'
-sql = "INSERT INTO test_mysql (name, num, text) VALUES ('{0}','{1}', '{2}')".format('Zarten_1', 1, 'mysql test')
-try:
-    with mysql_conn.cursor() as cursor:
-        cursor.execute(sql)
-    mysql_conn.commit()
-except Exception as e:
-    mysql_conn.rollback()
+# try:
+#     with mysql_conn.cursor() as cursor:
+#         cursor.execute(sql)
+#     mysql_conn.commit()
+# except Exception as e:
+#     mysql_conn.rollback()
+
+def toSql(PKLFile):
+    mysql_conn = pymysql.connect(host=dbConfig_log.get("host"),
+                                 port=dbConfig_log.get("port"),
+                                 user=dbConfig_log.get("user"),
+                                 password=dbConfig_log.get("password"),
+                                 db=dbConfig_log.get("db"))
+    f = open(PKLFile, 'rb')
+    df=pickle.load(f)
+    line_all=df.shape[0]
+    line_now=0
+    for data in df.values:
+        line_now+=1
+        progress_bar(line_now/line_all)
+
+        index={'channel': '', 'systmtime': '', 'eventid': '', 'level': '', 'targetuserName': '', 'targetdomainname': '',
+         'targetsid': '',
+         'subjectusersid': '', 'subjectusername': '', 'subjectdominename': '', 'subjectlogonid': '',
+         'callprocessname': '',
+         'targetusersid': '', 'status': '', 'substatus': '', 'logontype': '', 'logonprocessname': '',
+         'workstationname': '', 'processname': '', 'ipaddress': ''}
+        dfColon=df.columns
+        index['channel']=dfColon.get_loc('Channel')
+        index['systemtime']=dfColon.get_loc('SystemTime')
+        index['eventid']=dfColon.get_loc('EventID')
+        index['level']=dfColon.get_loc('Level')
+        index['targetuserName'] = dfColon.get_loc('TargetUserName_EventData')
+
+        index['targetdomainname'] = dfColon.get_loc('TargetDomainName_EventData')
+        index['targetsid'] = dfColon.get_loc('TargetSid_EventData')
+        index['subjectusersid'] = dfColon.get_loc('SubjectUserSid_EventData')
+        index['subjectusername'] = dfColon.get_loc('SubjectUserName_EventData')
+        index['subjectdominename'] = dfColon.get_loc('SubjectDomainName_EventData')
+
+        index['subjectlogonid'] = dfColon.get_loc('SubjectLogonId_EventData')
+        # index['callprocessname'] = dfColon.get_loc('CallerProcessName_EventData')
+        index['targetusersid'] = dfColon.get_loc('TargetUserSid_EventData')
+        index['status'] = dfColon.get_loc('Status_EventData')
+        index['substatus'] = dfColon.get_loc('SubStatus_EventData')
+        index['logontype'] = dfColon.get_loc('LogonType_EventData')
+
+        index['logonprocessname'] = dfColon.get_loc('LogonProcessName_EventData')
+        index['workstationname'] = dfColon.get_loc('WorkstationName_EventData')
+        index['processname'] = dfColon.get_loc('ProcessName_EventData')
+        index['ipaddress'] = dfColon.get_loc('IpAddress_EventData')
+
+
+        sql = "INSERT INTO `testlog`" \
+              " (`channel`, `systemtime`, `eventid`, `level`, `targetuserName`, " \
+              "`targetdomainname`, `targetsid`, `subjectusersid`, `subjectusername`, `subjectdominename`," \
+              " `subjectlogonid`, `targetusersid`, `status`, `substatus`, `logontype`, " \
+              "`logonprocessname`, `workstationname`, `processname`, `ipaddress`) VALUES " \
+              "('{}', '{}', '{}', '{}', '{}', " \
+              "'{}', '{}', '{}', '{}', '{}'," \
+              " '{}', '{}', '{}', '{}','{}'," \
+              " '{}', '{}', '{}', '{}')".format(
+            data[index['channel']], data[index['systemtime']], data[index['eventid']], data[index['level']],data[index['targetuserName']],
+            data[index['targetdomainname']],data[index['targetsid']],data[index['subjectusersid']],data[index['subjectusername']],data[index['subjectdominename']],
+            data[index['subjectlogonid']],data[index['targetusersid']],data[index['status']],data[index['substatus']],data[index['logontype']],
+            data[index['logonprocessname']],data[index['workstationname']],data[index['processname']],data[index['ipaddress']])
+        try:
+            with mysql_conn.cursor() as cursor:
+                cursor.execute(sql)
+            mysql_conn.commit()
+            # print('commit!')
+        except Exception as e:
+            mysql_conn.rollback()
+            print(e)
+    print("\n[+]allToSQL!")
+
+# toSql(temPKL)
+exportEVTX(temPKL)

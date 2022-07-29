@@ -1,6 +1,6 @@
 import datetime
 import string
-from flask import Flask, redirect, url_for, request
+from test import Flask, redirect, url_for, request
 import logging
 
 datetime=datetime.datetime.now()
