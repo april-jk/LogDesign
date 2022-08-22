@@ -3,7 +3,7 @@ import json
 from datetime import date, datetime
 import pandas as pd
 import pymysql
-from _cffi_backend import typeof
+from _cffi_backend import typeof, string
 
 from  config.dbConfig import dbConfig_log
 
@@ -39,19 +39,24 @@ def fetchWinLog():
             # with open("rowarray.js","w") as f:
             #     f.write(j)
             object_list=[]
+            json_str='{'
             for row_ in rows:
                 d=collections.OrderedDict()
-                d['SystemTime']=row_[0]
+                d['SystemTime']=string(row_[0])
                 d['EventID']=row_[1]
                 d['subjectusername']=row_[2]
                 d['TargetUserName']=row_[3]
                 d['subjectdominename']=row_[4]
                 d['TargetDomainName']=row_[5]
                 d['ipaddress']=row_[6]
-                object_list.append(d)
+                json_str=json_str+','+'\"systemtime\":\"'+row_[0]+'\",'+'\"eventid\":\"'+row_[1]+\
+                         '\",\"currUser\":\"'+row_[2]+'\",\"targetUser\":\"'+row_[3]+'\",\"domain\":'+row_[4]+\
+                         '\",\"targetDomain\":\"'+row_[5]+'\",\"ipaddr\":\"'+row_[6]+'\"}'
+                # print(json_str)
+                # object_list.append(d)
                 # dict(zip(d.keys(),d.values()))
-            j=json.dumps(object_list,cls='ComplexEncoder',skipkeys='true',ensure_ascii='False')
-            print(j)
+            # j=json.dumps(object_list,cls='ComplexEncoder',skipkeys='true',ensure_ascii='False')
+            print(json_str)
             # with open('test.js',"w") as f:
             #     f.write(j)
 

@@ -1,22 +1,28 @@
 import contextlib
+import sys
+from miscFunc.progress_bar import progress_bar
+from datetime import datetime
+
+import pymysql
+
+from config.dbConfig import dbConfig_log
+
+import mmap
 import contextlib
 import datetime
-import mmap
 import os
 import pickle
-import sys
-from datetime import datetime
-from xml.dom import minidom
-
 # 这个文件是提取evtx到pkl缓存
 import Evtx.BinaryParser
-import pymysql
 from Evtx.Evtx import FileHeader
 from Evtx.Views import evtx_file_xml_view
-from config.dbConfig import dbConfig_log
-from core.time import generateTime
-from miscFunc.progress_bar import progress_bar
+from xml.dom import minidom
 from pandas import DataFrame
+
+from core.time import generateTime
+
+
+
 
 # sql = "SELECT * FROM test "
 # # sql = "INSERT INTO test_mysql (name, num, text) VALUES ('{0}','{1}', '{2}')".format('Zarten_1', 1, 'mysql test')
