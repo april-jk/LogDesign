@@ -1,0 +1,2 @@
+在api层进行 数据到json的转黄
+json.dumps(a)

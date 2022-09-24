@@ -30,7 +30,16 @@ def fetchWinLog():
             rows = cursor.fetchall()
             mysql_conn.close()
 
-            data = []
+
+            rowarray_list=[]
+            # for row in rows:
+            #     t=(row[0],row[1],row[2],row[3],row[4],row[5],row[6])
+            #     rowarray_list.append(t)
+            # j=json.dumps(rowarray_list,cls='ComplexEncoder',)
+            # with open("rowarray.js","w") as f:
+            #     f.write(j)
+            object_list=[]
+            json_str='{'
             for row_ in rows:
                 d=collections.OrderedDict()
                 d['SystemTime']=row_[0].strftime('%Y-%m-%d %H:%M:%S')
@@ -40,15 +49,35 @@ def fetchWinLog():
                 d['subjectdominename']=row_[4]
                 d['TargetDomainName']=row_[5]
                 d['ipaddress']=row_[6]
-                data.append(d)
-            # json_str=json.dumps(data)
-            # print(json_str)
+                json_str=json_str+','+'\"systemtime\":\"'+row_[0]+'\",'+'\"eventid\":\"'+row_[1]+\
+                         '\",\"currUser\":\"'+row_[2]+'\",\"targetUser\":\"'+row_[3]+'\",\"domain\":'+row_[4]+\
+                         '\",\"targetDomain\":\"'+row_[5]+'\",\"ipaddr\":\"'+row_[6]+'\"}'
+                # print(json_str)
+                # object_list.append(d)
+                # dict(zip(d.keys(),d.values()))
+            # j=json.dumps(object_list,cls='ComplexEncoder',skipkeys='true',ensure_ascii='False')
+            print(json_str)
+            # with open('test.js',"w") as f:
+            #     f.write(j)
+
+            # print(select_result)
+            # print('\n')
+            # print(typeof(select_result))
 
     except Exception as e:
         print(e)
-    return data
-# fetchWinLog()
+    return
+fetchWinLog()
 if __name__ == '__main__':
-    a=fetchWinLog()
-    print(a)
+    fetchWinLog()
 
+
+
+class ComplexEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.strftime('%Y-%m-%d %H:%M:%S')
+        elif isinstance(obj, date):
+            return obj.strftime('%Y-%m-%d')
+        else:
+            return json.JSONEncoder.default(self, obj)

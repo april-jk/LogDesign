@@ -1,3 +1,5 @@
+import json
+
 from _cffi_backend import typeof
 
 from flaskBak.sql.fetchLog import fetchWinLog
@@ -5,10 +7,14 @@ from flaskBak.sql.fetchLog import fetchWinLog
 #     data_fetched=''
 #     return data_fetched
 
-def fetchWinLogAPI():
-    logDate=fetchWinLog()
-    return logDate
-date=fetchWinLogAPI()
-print(date)
+def fetchWinLog_api():
+    logData=json.dumps(fetchWinLog())
+    # print(logData)
+    return logData
+# data=fetchWinLog_api()
+# print(data)
 # print(typeof(date))
 # print(1)
+if __name__ == '__main__':
+    a=fetchWinLog_api()
+    print(a)
