@@ -101,9 +101,9 @@ def Log_Get(evtxpath):
             raise
 
 
-#Log_Get('./Winlog/yoga/Security.evtx')
-# Log_Get('./Winlog/server2012/RDP_securityLog.evtx')
-Log_Get('./Winlog/server2012/server.evtx')
+#Log_Get('./SelectedLogs/yoga/Security.evtx')
+# Log_Get('./SelectedLogs/server2012/RDP_securityLog.evtx')
+Log_Get('./SelectedLogs/server2012/server.evtx')
 
 
 '''

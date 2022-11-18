@@ -11,7 +11,7 @@ from xml.etree import ElementTree
 
 if __name__ == '__main__':
     # Windows事件日志路径
-    EvtxPath = r"./Winlog/server.evtx"
+    EvtxPath = r"./SelectedLogs/server.evtx"
     dataList=[]
     dataInsideList={}
 # 解析Windows事件日志

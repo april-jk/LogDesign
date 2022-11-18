@@ -1,7 +1,7 @@
 import pickle
-from core.dataStruct.dataStruct import attactEvent_2425
+from analysis.core.dataStruct.dataStruct import attactEvent_2425
 
-f = open('../pklFile/test_all.pkl', 'rb')
+f = open('../../pklFile/test_all.pkl', 'rb')
 df = pickle.load(f)
 f.close()
 

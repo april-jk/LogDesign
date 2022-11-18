@@ -87,4 +87,4 @@ def Log_Get(evtxpath):
             raise
 
 
-print(Log_Get('./Winlog/server2012/server.evtx'))
+print(Log_Get('./SelectedLogs/server2012/server.evtx'))

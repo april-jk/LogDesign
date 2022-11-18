@@ -1,5 +1,3 @@
-import contextlib
-import sys
 from miscFunc.progress_bar import progress_bar
 from datetime import datetime
 
@@ -18,11 +16,6 @@ from Evtx.Evtx import FileHeader
 from Evtx.Views import evtx_file_xml_view
 from xml.dom import minidom
 from pandas import DataFrame
-
-from core.time import generateTime
-
-
-
 
 # sql = "SELECT * FROM test "
 # # sql = "INSERT INTO test_mysql (name, num, text) VALUES ('{0}','{1}', '{2}')".format('Zarten_1', 1, 'mysql test')
@@ -124,8 +117,8 @@ def exportEVTX(evtxpath):
 
 
 temPKL='145clj.pkl'
-# # exportEVTX('./Winlog/server2012/server.evtx')
-# exportEVTX('../Winlog/server2008/1.evtx','2021-09-14 12:12:12',False)
+# # exportEVTX('./SelectedLogs/server2012/server.evtx')
+# exportEVTX('../SelectedLogs/server2008/1.evtx','2021-09-14 12:12:12',False)
 #
 # table_name='test'
 # sql = "INSERT INTO test_mysql (name, num, text) VALUES ('{0}','{1}', '{2}')".format('Zarten_1', 1, 'mysql test')

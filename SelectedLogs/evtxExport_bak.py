@@ -76,5 +76,5 @@ def exportEVTX(evtxpath):
             raise
 
 
-# exportEVTX('./Winlog/server2012/server.evtx')
-exportEVTX('./Winlog/server2008/1.evtx')
+# exportEVTX('./SelectedLogs/server2012/server.evtx')
+exportEVTX('./SelectedLogs/server2008/1.evtx')

@@ -1,4 +1,4 @@
-from core.time import generateTime
+from analysis.core.time import generateTime
 
 import mmap
 import contextlib
@@ -89,6 +89,6 @@ def exportEVTX(evtxpath,laterTime,ignoreTime):
 
 
 temPKL='pklFile/test_all_2008_test_after20\.pkl'
-# exportEVTX('./Winlog/server2012/server.evtx')
-exportEVTX('./Winlog/server2008/1.evtx','2021-09-14 12:12:12',False)
+# exportEVTX('./SelectedLogs/server2012/server.evtx')
+exportEVTX('./SelectedLogs/server2008/1.evtx','2021-09-14 12:12:12',False)
 

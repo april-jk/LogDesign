@@ -1,4 +1,4 @@
-# from core.analysis.miscFunc import
+# from core.analysisWindows.miscFunc import
 
 
 #userAdd

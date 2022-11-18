@@ -1,9 +1,12 @@
 import datetime
 import json
 import string
-from flask import Flask, redirect, url_for, request
-from flaskBak.api.dashboard import getHostNumber_api,getWarnNumber_api,getWeakNumber_api,getLogNumber_api
+from flask import Flask, redirect, url_for, request,make_response
+from flaskBak.api.dashboard import getHostNumber_api, getWarnNumber_api, getWeakNumber_api, getLogNumber_api, \
+    getNumber_api, getDashList
 from flaskBak.api.fetchLog import fetchWinLog_api
+from flaskBak.api.host import getHostList_api, getHostList_easy_api
+from flaskBak.api.login import loginVerify
 import logging
 
 datetime=datetime.datetime.now()
@@ -22,11 +25,32 @@ def web_index():
 # @app.route('/v1/api/logAudit/logAudit', methods=['POST', 'GET'])
 # def web_logAudit():
 #     return
-@app.route('/v1/api/logAudit/winlog', methods=['POST', 'GET'])
+
+
+
+
+
+
+
+@app.route('/v1/api/logAudit/winlog', methods=['GET'])
 def web_winlog():
-    date=fetchWinLog_api()
-    # print(date)
-    return date
+    if request.method=='GET':
+        page=int(request.args.get('page'))
+        count=int(request.args.get('count'))
+        host=str(request.args.get('host'))
+        eventid=int(request.args.get('eventid'))
+        print(eventid)
+        #这存在sql注入
+        data=fetchWinLog_api(page,count,host,eventid)
+        # print(date)
+        headers={
+            'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin,Content-Type',
+            'Access-Control-Allow-Origin': '*',
+        }
+    else:
+        return
+    return make_response(data,headers)
+
 
 
 # @app.route('/success')
@@ -38,40 +62,68 @@ def web_winlog():
 #     return redirect(url_for('/success'))
 
 
-# @app.route('/localInfo', methods=['POST', 'GET'])
-# def saveIPConfig():
-#     if request.method == 'POST':
-#         ipv6 = request.form.get('ipv6')
-#         ipconfig=request.form.get('ipconfig')
-#         lastTime = datetime.strftime("%Y-%m-%d %H:%M:%S")
-#         # print(lastTime + "++|++" + ipv6)
-#         # print(lastTime+"++|++"+ipv6 + "++|++" + ipconfig + "++|++"+'\n')
-#         ipConfigFile = open('ipConfigFile.txt', 'a+')
-#         ipConfigFile.write(lastTime + ipconfig +'\n')
-#         ipv6File=open('ipv6.txt','a+')
-#         ipv6File.write(lastTime+'   >'+ipv6+'<'+'\n')
-#         return 'submit success!'
-#     else:
-#         return 'please submit date through post!'
 
-@app.route('/v1/api/count/lognum', methods=['POST', 'GET'])
+@app.route('/v1/api/count/dashboard', methods=['POST', 'GET'])
 def getlognum():
-    print(getLogNumber_api())
-    num=getLogNumber_api()
-    return num
-@app.route('/v1/api/count/warnnum', methods=['POST', 'GET'])
-def getwarnum():
-    return getWarnNumber_api()
-@app.route('/v1/api/count/weaknum', methods=['POST', 'GET'])
-def getweaknum():
-    return getWeakNumber_api()
-@app.route('/v1/api/count/hostnum', methods=['POST', 'GET'])
-def gethostnum():
-    return getHostNumber_api()
+    # print(getLogNumber_api())
+    dashnum=getNumber_api()
+    headers = {
+        'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin,Content-Type',
+        'Access-Control-Allow-Origin': '*',
+    }
+    return make_response(dashnum, headers)
+
+
+@app.route('/v1/api/host/dashList',methods=['POST','GET'])
+def getdashList():
+    data=getDashList()
+    headers={
+            'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin,Content-Type',
+            'Access-Control-Allow-Origin': '*',
+        }
+    return make_response(data,headers)
+
+
+@app.route('/v1/api/host/hostList',methods=['POST','GET'])
+def getHost():
+    data = getHostList_api()
+    headers = {
+        'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin,Content-Type',
+        'Access-Control-Allow-Origin': '*',
+    }
+    return make_response(data, headers)
+@app.route('/v1/api/host/hostList_easy',methods=['POST','GET'])
+def getHost_easy():
+    data=getHostList_easy_api()
+    headers = {
+        'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin,Content-Type',
+        'Access-Control-Allow-Origin': '*',
+    }
+    return make_response(data, headers)
+
+
+
+@app.route('/v1/api/login',methods=['POST'])
+def login():
+    if request.method == 'POST':
+        username=request.form.get('username')
+        password=request.form.get('password')
+        headers = {
+            'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin,Content-Type',
+            'Access-Control-Allow-Origin': '*',
+        }
+        data = loginVerify(username,password)
+        return make_response(data, headers)
 
 
 
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8088,debug='true')
+    # data = fetchWinLog_api(1, 100)
+    # print(data)
+    app.run(host='0.0.0.0', port=8111,debug='true')
+
+
+# /home/ubuntu/LogDesign
+# runfile('/home/ubuntu/LogDesign/flaskBak/route.py', wdir='/home/ubuntu/LogDesign/flaskBak')

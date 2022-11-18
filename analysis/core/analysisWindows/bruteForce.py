@@ -1,5 +1,5 @@
-from core.dataStruct.dataStruct import attactEvent_2425
-from core.analysis.miscFunc import inIpList, inLogonTypeList, getEventIndex, inuidList
+from analysis.core.dataStruct.dataStruct import attactEvent_2425
+from analysis.core.analysisWindows.miscFunc import inIpList, inLogonTypeList, getEventIndex, inuidList
 
 AttactList = []
 waring=[]

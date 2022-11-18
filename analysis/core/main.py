@@ -1,8 +1,8 @@
 import pickle
-from core.analysis.bruteForce import id4624,id4625,AttactList
-from core.analysis.hostSecureDetect import hostSecureDetect
+from analysis.core.analysisWindows.bruteForce import id4624,id4625
+from analysis.core.analysisWindows.hostSecureDetect import hostSecureDetect
 
-f = open('../pklFile/test_all.pkl', 'rb')
+f = open('../../pklFile/test_all.pkl', 'rb')
 df = pickle.load(f)
 f.close()
 

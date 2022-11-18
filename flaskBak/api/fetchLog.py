@@ -7,8 +7,8 @@ from flaskBak.sql.fetchLog import fetchWinLog
 #     data_fetched=''
 #     return data_fetched
 
-def fetchWinLog_api():
-    logData=json.dumps(fetchWinLog())
+def fetchWinLog_api(page,count,host,eventid):
+    logData=json.dumps(fetchWinLog(page,count,host,eventid))
     # print(logData)
     return logData
 # data=fetchWinLog_api()
