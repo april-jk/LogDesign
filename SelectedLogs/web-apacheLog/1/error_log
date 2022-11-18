@@ -1,0 +1,359 @@
+[Wed Sep 30 15:30:23.256526 2020] [mpm_event:notice] [pid 15503:tid 4574258624] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 15:30:23.256855 2020] [core:notice] [pid 15503:tid 4574258624] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 15:30:43.652866 2020] [mpm_event:notice] [pid 15503:tid 4574258624] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 15:31:12.720365 2020] [mpm_event:notice] [pid 15531:tid 4348265920] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 15:31:12.720974 2020] [core:notice] [pid 15531:tid 4348265920] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 15:32:49.984468 2020] [mpm_event:notice] [pid 15531:tid 4348265920] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 15:38:09.282194 2020] [mpm_event:notice] [pid 15740:tid 4410398144] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 15:38:09.282762 2020] [core:notice] [pid 15740:tid 4410398144] AH00094: Command line: './httpd'
+[Wed Sep 30 15:38:22.278847 2020] [mpm_event:notice] [pid 15740:tid 4410398144] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 16:13:41.751341 2020] [mpm_event:notice] [pid 18096:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 16:13:41.752142 2020] [core:notice] [pid 18096:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 16:32:24.768785 2020] [mpm_event:notice] [pid 18096:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 16:44:46.424677 2020] [mpm_event:notice] [pid 20020:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 16:44:46.425236 2020] [core:notice] [pid 20020:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:05:31.450733 2020] [mpm_event:notice] [pid 20020:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:05:45.393275 2020] [mpm_event:notice] [pid 21195:tid 4671677888] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:05:45.393638 2020] [core:notice] [pid 21195:tid 4671677888] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:15:13.556600 2020] [mpm_event:notice] [pid 21195:tid 4671677888] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:15:57.077648 2020] [mpm_event:notice] [pid 21801:tid 4661556672] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:15:57.078102 2020] [core:notice] [pid 21801:tid 4661556672] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:20:11.052039 2020] [mpm_event:notice] [pid 21801:tid 4661556672] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:21:32.782430 2020] [mpm_event:notice] [pid 22087:tid 4617582016] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:21:32.782974 2020] [core:notice] [pid 22087:tid 4617582016] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:22:19.470223 2020] [mpm_event:notice] [pid 22087:tid 4617582016] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:35:08.460728 2020] [mpm_event:notice] [pid 22784:tid 4593411520] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:35:08.461331 2020] [core:notice] [pid 22784:tid 4593411520] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:37:02.477676 2020] [mpm_event:notice] [pid 22784:tid 4593411520] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:40:13.219515 2020] [mpm_event:notice] [pid 23095:tid 4555994560] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:40:13.219874 2020] [core:notice] [pid 23095:tid 4555994560] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:40:31.750672 2020] [mpm_event:notice] [pid 23095:tid 4555994560] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:44:56.346745 2020] [mpm_event:notice] [pid 23189:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:44:56.347301 2020] [core:notice] [pid 23189:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:45:30.428287 2020] [mpm_event:notice] [pid 23189:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:51:16.359067 2020] [mpm_event:notice] [pid 23221:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:51:16.359468 2020] [core:notice] [pid 23221:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:52:18.654751 2020] [mpm_event:notice] [pid 23221:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:55:04.055306 2020] [mpm_event:notice] [pid 23252:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:55:04.055671 2020] [core:notice] [pid 23252:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:56:59.551860 2020] [mpm_event:notice] [pid 23252:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 17:58:50.679104 2020] [mpm_event:notice] [pid 23328:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 17:58:50.679698 2020] [core:notice] [pid 23328:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 17:59:23.283846 2020] [mpm_event:notice] [pid 23328:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 18:00:10.992020 2020] [mpm_event:notice] [pid 23396:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 18:00:10.992573 2020] [core:notice] [pid 23396:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 18:00:17.787845 2020] [mpm_event:notice] [pid 23396:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 09:07:14.453612 2020] [mpm_event:notice] [pid 23558:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 09:07:14.454623 2020] [core:notice] [pid 23558:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 09:08:47.849902 2020] [mpm_event:notice] [pid 23558:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 18:35:16.661177 2020] [mpm_event:notice] [pid 26127:tid 4502029760] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 18:35:16.661691 2020] [core:notice] [pid 26127:tid 4502029760] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 18:38:24.922825 2020] [mpm_event:notice] [pid 26127:tid 4502029760] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 18:55:13.579087 2020] [mpm_event:notice] [pid 26290:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 18:55:13.579638 2020] [core:notice] [pid 26290:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 18:59:06.002812 2020] [mpm_event:notice] [pid 26290:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 19:04:15.840471 2020] [mpm_event:notice] [pid 26995:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 19:04:15.841046 2020] [core:notice] [pid 26995:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 19:05:05.972236 2020] [mpm_event:notice] [pid 26995:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 19:09:19.341572 2020] [mpm_event:notice] [pid 27190:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 19:09:19.342249 2020] [core:notice] [pid 27190:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 19:09:21.589463 2020] [mpm_event:notice] [pid 27190:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 19:09:53.438593 2020] [mpm_event:notice] [pid 27261:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 19:09:53.439191 2020] [core:notice] [pid 27261:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 19:10:00.468235 2020] [mpm_event:notice] [pid 27261:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Wed Sep 30 19:15:56.756767 2020] [mpm_event:notice] [pid 27479:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 30 19:15:56.757388 2020] [core:notice] [pid 27479:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 30 19:16:04.857461 2020] [mpm_event:notice] [pid 27479:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 10:35:19.552356 2020] [mpm_event:notice] [pid 28787:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 10:35:19.555416 2020] [core:notice] [pid 28787:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 10:35:22.437398 2020] [mpm_event:notice] [pid 28787:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:22:14.534672 2020] [mpm_event:notice] [pid 32273:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:22:14.535202 2020] [core:notice] [pid 32273:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 11:23:20.129058 2020] [mpm_event:notice] [pid 32273:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:24:06.238995 2020] [mpm_event:notice] [pid 32324:tid 4738295232] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:24:06.239356 2020] [core:notice] [pid 32324:tid 4738295232] AH00094: Command line: './httpd'
+[Fri Oct 09 11:24:32.936037 2020] [mpm_event:notice] [pid 32324:tid 4738295232] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:24:35.926709 2020] [mpm_event:notice] [pid 32345:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:24:35.927074 2020] [core:notice] [pid 32345:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 11:42:21.850536 2020] [mpm_event:notice] [pid 32345:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:42:24.747596 2020] [mpm_event:notice] [pid 32714:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:42:24.747931 2020] [core:notice] [pid 32714:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 11:44:00.845544 2020] [mpm_event:notice] [pid 32714:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:44:03.604278 2020] [mpm_event:notice] [pid 32758:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:44:03.604594 2020] [core:notice] [pid 32758:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 11:44:40.198722 2020] [mpm_event:notice] [pid 32758:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:44:43.797223 2020] [mpm_event:notice] [pid 32782:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:44:43.797744 2020] [core:notice] [pid 32782:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 11:45:26.883455 2020] [mpm_event:notice] [pid 32782:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 11:46:13.134247 2020] [mpm_event:notice] [pid 32871:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 11:46:13.134640 2020] [core:notice] [pid 32871:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 11:46:18.516360 2020] [mpm_event:notice] [pid 32871:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 13:08:15.287080 2020] [mpm_event:notice] [pid 33448:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 13:08:15.288767 2020] [core:notice] [pid 33448:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 13:11:19.730454 2020] [mpm_event:notice] [pid 33448:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 13:12:25.517556 2020] [mpm_event:notice] [pid 33603:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 13:12:25.518344 2020] [core:notice] [pid 33603:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 13:12:28.665173 2020] [mpm_event:notice] [pid 33603:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 14:44:37.709854 2020] [mpm_event:notice] [pid 39739:tid 4456494528] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 14:44:37.710452 2020] [core:notice] [pid 39739:tid 4456494528] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 14:44:39.837654 2020] [mpm_event:notice] [pid 39739:tid 4456494528] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 15:00:38.748716 2020] [mpm_event:notice] [pid 42303:tid 4629095872] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 15:00:38.749223 2020] [core:notice] [pid 42303:tid 4629095872] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 15:33:44.063321 2020] [mpm_event:notice] [pid 42303:tid 4629095872] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 15:33:46.211409 2020] [mpm_event:notice] [pid 43049:tid 4675671488] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 15:33:46.211759 2020] [core:notice] [pid 43049:tid 4675671488] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 15:38:01.708880 2020] [mpm_event:notice] [pid 43049:tid 4675671488] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 15:53:28.777235 2020] [mpm_event:notice] [pid 47462:tid 4463904192] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 15:53:28.777789 2020] [core:notice] [pid 47462:tid 4463904192] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 15:59:48.798109 2020] [mpm_event:notice] [pid 47462:tid 4463904192] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:02:01.674943 2020] [mpm_event:notice] [pid 49019:tid 4395550144] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:02:01.675471 2020] [core:notice] [pid 49019:tid 4395550144] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:05:58.654900 2020] [mpm_event:notice] [pid 49019:tid 4395550144] AH00491: caught SIGTERM, shutting down
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: \Applications\phpstudy\Extensions\php\php7.3.11\ext/redis.so (dlopen(\Applications\phpstudy\Extensions\php\php7.3.11\ext/redis.so, 9): image not found), \Applications\phpstudy\Extensions\php\php7.3.11\ext/redis.so.so (dlopen(\Applications\phpstudy\Extensions\php\php7.3.11\ext/redis.so.so, 9): image not found)) in <b>Unknown</b> on line <b>0</b><br />
+[Fri Oct 09 16:06:00.698419 2020] [mpm_event:notice] [pid 49123:tid 4743906752] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:06:00.698767 2020] [core:notice] [pid 49123:tid 4743906752] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:06:12.009811 2020] [mpm_event:notice] [pid 49123:tid 4743906752] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:06:16.090638 2020] [mpm_event:notice] [pid 49139:tid 4530169280] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:06:16.090970 2020] [core:notice] [pid 49139:tid 4530169280] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:06:41.655430 2020] [mpm_event:notice] [pid 49139:tid 4530169280] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:06:43.707302 2020] [mpm_event:notice] [pid 49171:tid 4566087104] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:06:43.707952 2020] [core:notice] [pid 49171:tid 4566087104] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:07:58.127434 2020] [mpm_event:notice] [pid 49171:tid 4566087104] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:10:42.858444 2020] [mpm_event:notice] [pid 49263:tid 4572329408] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:10:42.859255 2020] [core:notice] [pid 49263:tid 4572329408] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:10:50.401598 2020] [mpm_event:notice] [pid 49263:tid 4572329408] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:10:52.338605 2020] [mpm_event:notice] [pid 49277:tid 4618864064] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:10:52.338952 2020] [core:notice] [pid 49277:tid 4618864064] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:11:53.787816 2020] [mpm_event:notice] [pid 49277:tid 4618864064] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:11:55.738334 2020] [mpm_event:notice] [pid 49317:tid 4364105152] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:11:55.738670 2020] [core:notice] [pid 49317:tid 4364105152] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:12:20.092314 2020] [mpm_event:notice] [pid 49317:tid 4364105152] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:12:22.195137 2020] [mpm_event:notice] [pid 49338:tid 4379817408] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:12:22.195493 2020] [core:notice] [pid 49338:tid 4379817408] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:12:33.373076 2020] [mpm_event:notice] [pid 49338:tid 4379817408] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:13:15.344139 2020] [mpm_event:notice] [pid 49569:tid 4554073536] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:13:15.344666 2020] [core:notice] [pid 49569:tid 4554073536] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:13:20.135931 2020] [mpm_event:notice] [pid 49569:tid 4554073536] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:13:22.197305 2020] [mpm_event:notice] [pid 49582:tid 4570932672] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:13:22.197631 2020] [core:notice] [pid 49582:tid 4570932672] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:13:30.745531 2020] [mpm_event:notice] [pid 49582:tid 4570932672] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:14:45.358911 2020] [mpm_event:notice] [pid 49635:tid 4679157184] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:14:45.359234 2020] [core:notice] [pid 49635:tid 4679157184] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:15:05.514617 2020] [mpm_event:notice] [pid 49635:tid 4679157184] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:19:45.366568 2020] [mpm_event:notice] [pid 49743:tid 4735133120] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:19:45.367084 2020] [core:notice] [pid 49743:tid 4735133120] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis' (tried: \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis, 9): image not found), \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so, 9): image not found)) in Unknown on line 0
+[Fri Oct 09 16:22:18.847783 2020] [mpm_event:notice] [pid 49743:tid 4735133120] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:22:20.786638 2020] [mpm_event:notice] [pid 49817:tid 4562052544] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:22:20.787011 2020] [core:notice] [pid 49817:tid 4562052544] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:22:28.942241 2020] [mpm_event:notice] [pid 49817:tid 4562052544] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:22:31.070218 2020] [mpm_event:notice] [pid 49837:tid 4387038656] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:22:31.070547 2020] [core:notice] [pid 49837:tid 4387038656] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:22:33.180809 2020] [mpm_event:notice] [pid 49837:tid 4387038656] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:22:34.685203 2020] [mpm_event:notice] [pid 49849:tid 4441490880] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:22:34.685513 2020] [core:notice] [pid 49849:tid 4441490880] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis' (tried: \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis, 9): image not found), \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so, 9): image not found)) in Unknown on line 0
+[Fri Oct 09 16:23:27.743749 2020] [mpm_event:notice] [pid 49849:tid 4441490880] AH00491: caught SIGTERM, shutting down
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'redis' (tried: \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis, 9): image not found), \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so, 9): image not found)) in <b>Unknown</b> on line <b>0</b><br />
+[Fri Oct 09 16:23:29.702804 2020] [mpm_event:notice] [pid 49885:tid 4482233792] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:23:29.703145 2020] [core:notice] [pid 49885:tid 4482233792] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:26:43.772901 2020] [mpm_event:notice] [pid 49885:tid 4482233792] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:26:45.704722 2020] [mpm_event:notice] [pid 49974:tid 4526593472] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:26:45.705058 2020] [core:notice] [pid 49974:tid 4526593472] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:37:46.279673 2020] [mpm_event:notice] [pid 49974:tid 4526593472] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:37:47.498276 2020] [mpm_event:notice] [pid 50230:tid 4489672128] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:37:47.498688 2020] [core:notice] [pid 50230:tid 4489672128] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:38:54.282415 2020] [mpm_event:notice] [pid 50230:tid 4489672128] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:38:56.222287 2020] [mpm_event:notice] [pid 50289:tid 4656829888] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:38:56.222632 2020] [core:notice] [pid 50289:tid 4656829888] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:40:05.444663 2020] [mpm_event:notice] [pid 50289:tid 4656829888] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:40:07.598115 2020] [mpm_event:notice] [pid 50329:tid 4502922688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:40:07.598457 2020] [core:notice] [pid 50329:tid 4502922688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:50:44.762530 2020] [mpm_event:notice] [pid 50329:tid 4502922688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:50:46.723408 2020] [mpm_event:notice] [pid 50569:tid 4569826752] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:50:46.723742 2020] [core:notice] [pid 50569:tid 4569826752] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:52:10.276679 2020] [mpm_event:notice] [pid 50569:tid 4569826752] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:52:12.224610 2020] [mpm_event:notice] [pid 50612:tid 4468921792] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:52:12.225037 2020] [core:notice] [pid 50612:tid 4468921792] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:56:39.949473 2020] [mpm_event:notice] [pid 50612:tid 4468921792] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 16:56:42.119670 2020] [mpm_event:notice] [pid 51791:tid 4296586688] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 16:56:42.120023 2020] [core:notice] [pid 51791:tid 4296586688] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 16:58:38.757959 2020] [mpm_event:notice] [pid 51791:tid 4296586688] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 17:19:10.441269 2020] [mpm_event:notice] [pid 53253:tid 4507055552] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 17:19:10.441839 2020] [core:notice] [pid 53253:tid 4507055552] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis' (tried: \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis, 9): image not found), \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so, 9): image not found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis' (tried: \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis, 9): image not found), \Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so (dlopen(\Applications\phpstudy\Extensions\php\php7.2.25\ext/redis.so, 9): image not found)) in Unknown on line 0
+[Fri Oct 09 17:23:23.562089 2020] [mpm_event:notice] [pid 53253:tid 4507055552] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 17:24:12.222510 2020] [mpm_event:notice] [pid 53403:tid 4745168320] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 17:24:12.223057 2020] [core:notice] [pid 53403:tid 4745168320] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 17:24:14.316724 2020] [mpm_event:notice] [pid 53403:tid 4745168320] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 17:24:20.530374 2020] [mpm_event:notice] [pid 53419:tid 4403467712] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 17:24:20.530737 2020] [core:notice] [pid 53419:tid 4403467712] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 17:24:21.924711 2020] [mpm_event:notice] [pid 53419:tid 4403467712] AH00491: caught SIGTERM, shutting down
+[Fri Oct 09 17:28:16.009064 2020] [mpm_event:notice] [pid 53515:tid 4802241984] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 09 17:28:16.009409 2020] [core:notice] [pid 53515:tid 4802241984] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 09 17:28:17.365169 2020] [mpm_event:notice] [pid 53515:tid 4802241984] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 15:21:58.017401 2022] [mpm_event:notice] [pid 63932:tid 8634967552] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 15:21:58.017625 2022] [core:notice] [pid 63932:tid 8634967552] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 15:24:00.491385 2022] [mpm_event:notice] [pid 63932:tid 8634967552] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 15:24:02.453590 2022] [mpm_event:notice] [pid 65050:tid 8604112384] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 15:24:02.453822 2022] [core:notice] [pid 65050:tid 8604112384] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:36:36.897527 2022] [mpm_event:notice] [pid 65050:tid 8604112384] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:36:39.029209 2022] [mpm_event:notice] [pid 9894:tid 8600241664] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:36:39.029401 2022] [core:notice] [pid 9894:tid 8600241664] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:36:43.682923 2022] [mpm_event:notice] [pid 9894:tid 8600241664] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:36:45.841313 2022] [mpm_event:notice] [pid 9960:tid 8636286464] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:36:45.841523 2022] [core:notice] [pid 9960:tid 8636286464] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:42:54.132552 2022] [mpm_event:notice] [pid 9960:tid 8636286464] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:42:56.126603 2022] [mpm_event:notice] [pid 12984:tid 8604640768] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:42:56.126810 2022] [core:notice] [pid 12984:tid 8604640768] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:43:18.313533 2022] [mpm_event:notice] [pid 12984:tid 8604640768] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:43:20.497703 2022] [mpm_event:notice] [pid 13176:tid 8667403776] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:43:20.497907 2022] [core:notice] [pid 13176:tid 8667403776] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:43:41.587168 2022] [mpm_event:notice] [pid 13176:tid 8667403776] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:43:43.602901 2022] [mpm_event:notice] [pid 13363:tid 8597382656] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:43:43.603111 2022] [core:notice] [pid 13363:tid 8597382656] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:47:16.771454 2022] [mpm_event:notice] [pid 13363:tid 8597382656] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:47:18.964032 2022] [mpm_event:notice] [pid 14992:tid 8665662976] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:47:18.964235 2022] [core:notice] [pid 14992:tid 8665662976] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:49:33.602490 2022] [mpm_event:notice] [pid 14992:tid 8665662976] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:49:35.589064 2022] [mpm_event:notice] [pid 16032:tid 8593307136] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:49:35.589269 2022] [core:notice] [pid 16032:tid 8593307136] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:49:53.095417 2022] [mpm_event:notice] [pid 16032:tid 8593307136] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:49:55.084284 2022] [mpm_event:notice] [pid 16187:tid 8636204544] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:49:55.084485 2022] [core:notice] [pid 16187:tid 8636204544] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 18:49:58.682105 2022] [mpm_event:notice] [pid 16187:tid 8636204544] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 18:55:14.335375 2022] [mpm_event:notice] [pid 18847:tid 8675931648] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 18:55:14.335877 2022] [core:notice] [pid 18847:tid 8675931648] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 19:29:28.854488 2022] [mpm_event:notice] [pid 18847:tid 8675931648] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 19:29:30.982026 2022] [mpm_event:notice] [pid 27322:tid 8664147456] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 19:29:30.982249 2022] [core:notice] [pid 27322:tid 8664147456] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 19:36:37.905133 2022] [mpm_event:notice] [pid 27322:tid 8664147456] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 19:36:41.455260 2022] [mpm_event:notice] [pid 30610:tid 8672785920] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 19:36:41.455593 2022] [core:notice] [pid 30610:tid 8672785920] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Aug 31 19:46:04.494516 2022] [mpm_event:notice] [pid 30610:tid 8672785920] AH00491: caught SIGTERM, shutting down
+[Wed Aug 31 19:46:06.487928 2022] [mpm_event:notice] [pid 35117:tid 8628905472] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Aug 31 19:46:06.488120 2022] [core:notice] [pid 35117:tid 8628905472] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Sep 01 14:12:11.990634 2022] [mpm_event:notice] [pid 35117:tid 8628905472] AH00491: caught SIGTERM, shutting down
+[Tue Sep 06 16:09:02.440113 2022] [mpm_event:notice] [pid 39429:tid 8658527744] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 06 16:09:02.440503 2022] [core:notice] [pid 39429:tid 8658527744] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Tue Sep 06 16:09:27.215156 2022] [mpm_event:notice] [pid 39429:tid 8658527744] AH00491: caught SIGTERM, shutting down
+[Tue Sep 06 16:09:29.313875 2022] [mpm_event:notice] [pid 39659:tid 8666945024] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Sep 06 16:09:29.314105 2022] [core:notice] [pid 39659:tid 8666945024] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Tue Sep 06 22:48:18.288051 2022] [mpm_event:notice] [pid 39659:tid 8666945024] AH00491: caught SIGTERM, shutting down
+[Thu Sep 15 09:53:37.898808 2022] [mpm_event:notice] [pid 11872:tid 8611014144] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Sep 15 09:53:37.899263 2022] [core:notice] [pid 11872:tid 8611014144] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Sep 15 10:12:25.395041 2022] [mpm_event:notice] [pid 11872:tid 8611014144] AH00491: caught SIGTERM, shutting down
+[Thu Sep 15 10:12:27.353922 2022] [mpm_event:notice] [pid 21052:tid 8603952640] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Sep 15 10:12:27.354127 2022] [core:notice] [pid 21052:tid 8603952640] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Sep 16 08:47:02.138886 2022] [mpm_event:notice] [pid 21052:tid 8603952640] AH00491: caught SIGTERM, shutting down
+[Fri Sep 16 08:47:32.931547 2022] [mpm_event:notice] [pid 60601:tid 8605726208] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Sep 16 08:47:32.931756 2022] [core:notice] [pid 60601:tid 8605726208] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Sep 16 08:48:02.337061 2022] [mpm_event:notice] [pid 60601:tid 8605726208] AH00491: caught SIGTERM, shutting down
+[Fri Sep 16 08:48:04.329795 2022] [mpm_event:notice] [pid 60858:tid 8630494720] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Sep 16 08:48:04.330012 2022] [core:notice] [pid 60858:tid 8630494720] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Sep 16 08:51:49.758864 2022] [mpm_event:notice] [pid 60858:tid 8630494720] AH00491: caught SIGTERM, shutting down
+[Fri Sep 16 08:51:51.809796 2022] [mpm_event:notice] [pid 62580:tid 8670361088] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Sep 16 08:51:51.810031 2022] [core:notice] [pid 62580:tid 8670361088] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Sep 16 16:32:58.795399 2022] [mpm_event:notice] [pid 62580:tid 8670361088] AH00491: caught SIGTERM, shutting down
+[Fri Sep 16 21:19:09.964883 2022] [mpm_event:notice] [pid 61860:tid 8667584000] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Sep 16 21:19:09.965355 2022] [core:notice] [pid 61860:tid 8667584000] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 21 13:37:21.048981 2022] [mpm_event:notice] [pid 61860:tid 8667584000] AH00491: caught SIGTERM, shutting down
+[Wed Sep 21 13:37:23.079225 2022] [mpm_event:notice] [pid 92507:tid 8639702528] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Sep 21 13:37:23.079450 2022] [core:notice] [pid 92507:tid 8639702528] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Sep 21 14:24:38.611662 2022] [mpm_event:notice] [pid 92507:tid 8639702528] AH00491: caught SIGTERM, shutting down
+[Thu Sep 22 10:09:13.442982 2022] [mpm_event:notice] [pid 97572:tid 8602768896] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Sep 22 10:09:13.443443 2022] [core:notice] [pid 97572:tid 8602768896] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Sep 22 10:57:58.001258 2022] [mpm_event:notice] [pid 97572:tid 8602768896] AH00491: caught SIGTERM, shutting down
+[Thu Sep 22 10:57:59.961055 2022] [mpm_event:notice] [pid 20724:tid 8637015552] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Sep 22 10:57:59.961299 2022] [core:notice] [pid 20724:tid 8637015552] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Sep 22 10:58:12.726120 2022] [mpm_event:notice] [pid 20724:tid 8637015552] AH00491: caught SIGTERM, shutting down
+[Thu Sep 22 10:58:14.891625 2022] [mpm_event:notice] [pid 20846:tid 8666138112] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Sep 22 10:58:14.891848 2022] [core:notice] [pid 20846:tid 8666138112] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Sep 22 11:15:12.416351 2022] [mpm_event:notice] [pid 20846:tid 8666138112] AH00491: caught SIGTERM, shutting down
+[Thu Oct 06 10:23:01.506134 2022] [mpm_event:notice] [pid 55555:tid 8602904064] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Oct 06 10:23:01.506578 2022] [core:notice] [pid 55555:tid 8602904064] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Oct 06 21:56:07.539747 2022] [mpm_event:notice] [pid 55555:tid 8602904064] AH00491: caught SIGTERM, shutting down
+[Mon Oct 10 09:11:14.636083 2022] [mpm_event:notice] [pid 94500:tid 8603457024] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Oct 10 09:11:14.636613 2022] [core:notice] [pid 94500:tid 8603457024] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Oct 10 09:15:35.405426 2022] [mpm_event:notice] [pid 94500:tid 8603457024] AH00491: caught SIGTERM, shutting down
+[Tue Oct 11 17:51:15.049448 2022] [mpm_event:notice] [pid 74907:tid 8603055616] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Oct 11 17:51:15.050230 2022] [core:notice] [pid 74907:tid 8603055616] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Tue Oct 11 17:52:12.902498 2022] [mpm_event:notice] [pid 74907:tid 8603055616] AH00491: caught SIGTERM, shutting down
+[Mon Oct 17 13:16:11.108037 2022] [mpm_event:notice] [pid 37031:tid 8631363072] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Oct 17 13:16:11.108456 2022] [core:notice] [pid 37031:tid 8631363072] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Oct 17 13:45:14.691364 2022] [mpm_event:notice] [pid 37031:tid 8631363072] AH00491: caught SIGTERM, shutting down
+[Mon Oct 17 13:45:16.647085 2022] [mpm_event:notice] [pid 52036:tid 8609723904] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Oct 17 13:45:16.647297 2022] [core:notice] [pid 52036:tid 8609723904] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Oct 17 19:11:43.092904 2022] [mpm_event:notice] [pid 52036:tid 8609723904] AH00491: caught SIGTERM, shutting down
+[Tue Oct 18 08:09:35.241794 2022] [mpm_event:notice] [pid 3158:tid 8644265472] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Oct 18 08:09:35.242943 2022] [core:notice] [pid 3158:tid 8644265472] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Wed Oct 19 18:07:41.787010 2022] [mpm_event:notice] [pid 3158:tid 8644265472] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:03:43.301724 2022] [mpm_event:notice] [pid 89513:tid 8631928320] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:03:43.302477 2022] [core:notice] [pid 89513:tid 8631928320] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:05:37.352121 2022] [mpm_event:notice] [pid 89513:tid 8631928320] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:23:22.717268 2022] [mpm_event:notice] [pid 98962:tid 8663569920] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:23:22.717848 2022] [core:notice] [pid 98962:tid 8663569920] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:23:23.799259 2022] [mpm_event:notice] [pid 98962:tid 8663569920] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:23:24.719587 2022] [mpm_event:notice] [pid 98986:tid 8625866240] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:23:24.719790 2022] [core:notice] [pid 98986:tid 8625866240] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:31:02.944806 2022] [mpm_event:notice] [pid 98986:tid 8625866240] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:31:04.986566 2022] [mpm_event:notice] [pid 3531:tid 8637175296] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:31:04.986779 2022] [core:notice] [pid 3531:tid 8637175296] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:35:38.917196 2022] [mpm_event:notice] [pid 3531:tid 8637175296] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:35:40.985200 2022] [mpm_event:notice] [pid 5714:tid 8611481088] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:35:40.985402 2022] [core:notice] [pid 5714:tid 8611481088] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:38:00.220517 2022] [mpm_event:notice] [pid 5714:tid 8611481088] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:38:02.411430 2022] [mpm_event:notice] [pid 6848:tid 8665388544] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:38:02.411640 2022] [core:notice] [pid 6848:tid 8665388544] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:39:56.952731 2022] [mpm_event:notice] [pid 6848:tid 8665388544] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:39:58.979700 2022] [mpm_event:notice] [pid 7771:tid 8674842112] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:39:58.979926 2022] [core:notice] [pid 7771:tid 8674842112] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:40:15.528141 2022] [mpm_event:notice] [pid 7771:tid 8674842112] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:40:17.515022 2022] [mpm_event:notice] [pid 7922:tid 8610158080] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:40:17.515228 2022] [core:notice] [pid 7922:tid 8610158080] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:51:19.541871 2022] [mpm_event:notice] [pid 7922:tid 8610158080] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:51:21.538910 2022] [mpm_event:notice] [pid 13429:tid 8664864256] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:51:21.539112 2022] [core:notice] [pid 13429:tid 8664864256] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Oct 21 21:51:48.256234 2022] [mpm_event:notice] [pid 13429:tid 8664864256] AH00491: caught SIGTERM, shutting down
+[Fri Oct 21 21:51:50.440858 2022] [mpm_event:notice] [pid 13664:tid 8664708608] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Oct 21 21:51:50.441071 2022] [core:notice] [pid 13664:tid 8664708608] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Sat Oct 22 12:25:16.175188 2022] [mpm_event:notice] [pid 13664:tid 8664708608] AH00491: caught SIGTERM, shutting down
+[Sat Oct 22 12:25:18.360441 2022] [mpm_event:notice] [pid 48715:tid 8608163328] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Sat Oct 22 12:25:18.360647 2022] [core:notice] [pid 48715:tid 8608163328] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Sat Oct 22 12:27:03.666682 2022] [mpm_event:notice] [pid 48715:tid 8608163328] AH00491: caught SIGTERM, shutting down
+[Tue Oct 25 13:59:06.052703 2022] [mpm_event:notice] [pid 12807:tid 8669214208] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Oct 25 13:59:06.053054 2022] [core:notice] [pid 12807:tid 8669214208] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Tue Oct 25 14:06:53.098510 2022] [mpm_event:notice] [pid 12807:tid 8669214208] AH00491: caught SIGTERM, shutting down
+[Thu Nov 03 09:59:06.817932 2022] [mpm_event:notice] [pid 98209:tid 8625541824] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Nov 03 09:59:06.818356 2022] [core:notice] [pid 98209:tid 8625541824] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Thu Nov 03 16:41:42.933109 2022] [mpm_event:notice] [pid 98209:tid 8625541824] AH00491: caught SIGTERM, shutting down
+[Sun Nov 06 14:48:35.496057 2022] [mpm_event:notice] [pid 20943:tid 8602342080] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Sun Nov 06 14:48:35.496481 2022] [core:notice] [pid 20943:tid 8602342080] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:27:20.010862 2022] [core:warn] [pid 47593:tid 8638104256] AH00098: pid file /Applications/phpstudy/Extensions/Apache2.4.41/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 07 20:27:20.020200 2022] [mpm_event:notice] [pid 47593:tid 8638104256] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:27:20.020251 2022] [core:notice] [pid 47593:tid 8638104256] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:27:39.529216 2022] [mpm_event:notice] [pid 47593:tid 8638104256] AH00491: caught SIGTERM, shutting down
+[Mon Nov 07 20:27:41.499958 2022] [mpm_event:notice] [pid 47854:tid 8601948864] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:27:41.500215 2022] [core:notice] [pid 47854:tid 8601948864] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:33:08.994445 2022] [mpm_event:notice] [pid 47854:tid 8601948864] AH00491: caught SIGTERM, shutting down
+[Mon Nov 07 20:33:10.997822 2022] [mpm_event:notice] [pid 50600:tid 8601944768] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:33:10.998084 2022] [core:notice] [pid 50600:tid 8601944768] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:33:12.491952 2022] [mpm_event:notice] [pid 50600:tid 8601944768] AH00491: caught SIGTERM, shutting down
+[Mon Nov 07 20:33:14.490645 2022] [mpm_event:notice] [pid 50638:tid 8602870464] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:33:14.490883 2022] [core:notice] [pid 50638:tid 8602870464] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:33:47.507502 2022] [mpm_event:notice] [pid 50638:tid 8602870464] AH00491: caught SIGTERM, shutting down
+[Mon Nov 07 20:33:49.510997 2022] [mpm_event:notice] [pid 50914:tid 8668910272] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:33:49.511245 2022] [core:notice] [pid 50914:tid 8668910272] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:33:55.536982 2022] [mpm_event:notice] [pid 50914:tid 8668910272] AH00491: caught SIGTERM, shutting down
+[Mon Nov 07 20:33:57.542415 2022] [mpm_event:notice] [pid 50993:tid 8659059392] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:33:57.542677 2022] [core:notice] [pid 50993:tid 8659059392] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Mon Nov 07 20:39:52.770901 2022] [mpm_event:notice] [pid 50993:tid 8659059392] AH00491: caught SIGTERM, shutting down
+[Mon Nov 07 20:39:54.937732 2022] [mpm_event:notice] [pid 53916:tid 8668189376] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Nov 07 20:39:54.937978 2022] [core:notice] [pid 53916:tid 8668189376] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Fri Nov 11 11:39:41.271116 2022] [core:warn] [pid 28207:tid 8601395904] AH00098: pid file /Applications/phpstudy/Extensions/Apache2.4.41/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 11 11:39:41.278718 2022] [mpm_event:notice] [pid 28207:tid 8601395904] AH00489: Apache/2.4.41 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Nov 11 11:39:41.278763 2022] [core:notice] [pid 28207:tid 8601395904] AH00094: Command line: '/Applications/phpstudy/Extensions/Apache2.4.41/bin/httpd'
+[Sat Nov 12 10:57:43.871582 2022] [mpm_event:notice] [pid 28207:tid 8601395904] AH00491: caught SIGTERM, shutting down

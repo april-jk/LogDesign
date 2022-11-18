@@ -1,0 +1,108 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/route.py', reloading
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.20.10.2:8200/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 20:59:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 20:59:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/analysis/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 21:00:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/analysis/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.20.10.2:8200/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/route.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/dashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
+INFO:werkzeug: * Detected change in '/Users/eunice/codingProject/PycharmProjects/LogDesign/flaskBak/api/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-670-970
